@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/narutop.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/narutom.jpg" type="image/jpg">
+        <img src="imagens/imagemnarutog.jpg" alt="imagem flexivel">
+
+
+
+      
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reporduzir audios em html
+    </p>
+<audio src="midia/Some Green Some Yellow - Karneef.mp3" controls autoplay></audio>
+
+<audio preload="metadata" autoplay controls>
+
+   <p>
+    Busybody de Audionautix é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/
+        
+    Artista: http://audionautix.com/
+   </p> <source src="midia/Busybody - Audionautix.mp3" type="audio/mpeg">
+
+</audio>
+
+
+</body>
+</html>

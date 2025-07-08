@@ -1,0 +1,103 @@
+@charset "UTF-8"
+
+
+
+:root{
+    
+
+}
+
+
+
+
+body {
+   
+}
+
+div.fundopreto {
+    background-color: #14120D;
+}
+
+nav {
+    min-width: 300px;
+    max-width: 1000px;
+    padding-bottom: 3px;
+
+}
+
+nav > a.fontemaior {
+    text-decoration: none;
+    color: #B79043;
+    font-size: 4em;
+}
+
+nav > a {
+    color: #ADA68C;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    
+}
+
+nav a:hover.pequeno {
+    background-color: #B79043;
+    text-decoration: dashed;
+    color: #f0f0f0;
+    border-radius: 1px 8px 1px 8px;
+}
+
+
+
+
+
+
+main{
+    background-color: white;
+ background-image: url(imagens/backgroundvilarejo.png);
+ padding: 100px;
+ margin: 50px;
+ border-radius: 20px 30px;
+
+
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+}
+
+main p {
+    color: white;
+    text-align: center;
+}
+
+main a {
+    text-decoration: none;
+    color: #090A0B;
+    
+}
+
+div.fundo{
+    text-align: center;
+    background-color: #CBA65A;
+    padding: 10px;
+   margin: 1px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+aside{
+
+}
+
+
+
+
+footer{
+
+}

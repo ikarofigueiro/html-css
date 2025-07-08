@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/logo/5629800e001d6016a4e4d05c5bbb01ca.jpg);
+   
+        background-size: cover; /* Faz com que a imagem cubra toda a tela */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+        background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página (opcional) */
+    }
+    
+
+header#cabeça{
+    text-align: center;
+    background-image: url(imagens/logo/imagemdekonoha2.jpg);
+    font-size: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color:lightslategrey;
+    margin: 10px;
+    margin: auto;
+    width: 600px;
+   
+}
+
+.logo{
+    border-radius: 40px;
+    width: 40px;
+}
+
+div#botoes{
+    background-color: white;
+    width: 600px;
+    margin: 10px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+main{
+    background-color: lightgoldenrodyellow;
+    width: 600px;
+    margin: 10px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+footer#contatos{
+    background-color: lightcoral;
+    border-bottom: solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    margin: 10px;
+    margin: auto;
+    
+}
+footer#inf{
+    text-align: center;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    width: 600px;
+    margin: 10px;
+    margin: auto;
+
+}
+
+div#pagamentos{
+    font-size: 25px;
+}
